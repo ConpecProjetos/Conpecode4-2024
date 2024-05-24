@@ -27,7 +27,10 @@ function TodoList() {
 
   return (
     <div>
+      {/* vai criar um forms para receber novos todos, recebe um text (vindo do AddItem)
+      e chamara a funcao handleAdd passando esse text como parametro */}
       <AddItem add={(text) => handleAdd(text)}/>
+      {/* vai mapear todos os elementos do state todos, e para cada um vai criar um componente TodoItem */}
       {todos.map(todo => (
         <TodoItem key={todo.id} text={todo.text} remove={() => handleRemove(todo.id)} />
       ))}
