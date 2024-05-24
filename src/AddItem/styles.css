@@ -1,0 +1,29 @@
+.add-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 45px;
+}
+
+.add-input {
+  width: 80%;
+  border-radius: 10px;
+  border:0;
+}
+
+.add-button {
+  background-color: rgb(79,119,45);
+  border: 0;
+  border-radius: 10px;
+  color:rgb(236,243,158);
+  cursor: pointer;
+  transition: 1s;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.add-button:hover {
+  color:rgb(79,119,45);
+  background-color:rgb(236,243,158);
+  
+}
