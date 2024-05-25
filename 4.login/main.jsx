@@ -6,8 +6,8 @@ function Login() {
     return (
         <div id="card">
             <h1>Login</h1>
-            <input type="text" placeholder="Email" onInput={event => setEmail(event.target.value)}/>
-            <input type="password" placeholder="Password" onInput={event => setPassword(event.target.value)}/>
+            <input type="text" placeholder="Email" onInput={}/>
+            <input type="password" placeholder="Password" onInput={}/>
             <button className="submit" onClick={}>Login</button>
         </div>
     )
